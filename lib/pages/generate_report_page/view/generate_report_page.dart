@@ -5,10 +5,10 @@ class GenerateReportPage extends StatefulWidget {
   const GenerateReportPage({super.key});
 
   @override
-  _GenerateReportPageState createState() => _GenerateReportPageState();
+  GenerateReportPageState createState() => GenerateReportPageState();
 }
 
-class _GenerateReportPageState extends State<GenerateReportPage> {
+class GenerateReportPageState extends State<GenerateReportPage> {
   String _reportType = 'Daily Sales';
   DateTimeRange? _selectedDateRange;
 

@@ -4,10 +4,10 @@ class AddProductPage extends StatefulWidget {
   const AddProductPage({super.key});
 
   @override
-  _AddProductPageState createState() => _AddProductPageState();
+  AddProductPageState createState() => AddProductPageState();
 }
 
-class _AddProductPageState extends State<AddProductPage> {
+class AddProductPageState extends State<AddProductPage> {
   final _formKey = GlobalKey<FormState>();
   String productName = '';
   String description = '';

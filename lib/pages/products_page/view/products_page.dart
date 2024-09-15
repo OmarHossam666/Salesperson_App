@@ -5,10 +5,10 @@ class ProductsPage extends StatefulWidget {
   const ProductsPage({super.key});
 
   @override
-  _ProductsPageState createState() => _ProductsPageState();
+  ProductsPageState createState() => ProductsPageState();
 }
 
-class _ProductsPageState extends State<ProductsPage> {
+class ProductsPageState extends State<ProductsPage> {
   String selectedCategory = 'All';
 
   final List<Product> allProducts = [

@@ -5,10 +5,10 @@ class CustomersPage extends StatefulWidget {
   const CustomersPage({super.key});
 
   @override
-  _CustomersPageState createState() => _CustomersPageState();
+  CustomersPageState createState() => CustomersPageState();
 }
 
-class _CustomersPageState extends State<CustomersPage> {
+class CustomersPageState extends State<CustomersPage> {
   final List<Customer> customers = [
     Customer(name: 'Mohamed ahmad', city: 'Cairo', phone: '123-456-7890'),
     Customer(name: 'Sara hassan', city: 'Mansoura', phone: '987-654-3210'),

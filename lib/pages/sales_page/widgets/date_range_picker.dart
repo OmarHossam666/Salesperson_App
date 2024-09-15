@@ -7,11 +7,9 @@ class DateRangePicker extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: ElevatedButton(
-        onPressed: () {},
-        child: const Text('Select Date Range'),
-      ),
+    return ElevatedButton(
+      onPressed: () {},
+      child: const Text('Select Date Range'),
     );
   }
 }

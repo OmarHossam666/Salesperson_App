@@ -4,10 +4,10 @@ class AddCustomerPage extends StatefulWidget {
   const AddCustomerPage({super.key});
 
   @override
-  _AddCustomerPageState createState() => _AddCustomerPageState();
+  AddCustomerPageState createState() => AddCustomerPageState();
 }
 
-class _AddCustomerPageState extends State<AddCustomerPage> {
+class AddCustomerPageState extends State<AddCustomerPage> {
   final _formKey = GlobalKey<FormState>();
 
   String fullName = '';
